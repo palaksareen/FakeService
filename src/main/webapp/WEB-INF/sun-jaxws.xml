@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<endpoints xmlns="http://java.sun.com/xml/ns/jax-ws/ri/runtime" xmlns:javaee="http://java.sun.com/xml/ns/javaee"
+           version="2.0">
+
+    <endpoint name="SubscriberPort"
+              implementation="uk.co.o2.soa.subscriberservice_2.SubscriberPortImpl"
+              url-pattern="/services/subscriberProfile">
+        
+    </endpoint>
+    
+    <endpoint name="SubscriberPort"
+              implementation="uk.co.o2.soa.sendmessageservice_1_1.SendMessagePortTypeImpl"
+              url-pattern="/services/SendMessage">
+        
+    </endpoint>
+   
+
+</endpoints>
